@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let courses = [
+        {
+            id: 1,
+            title: "ReactJS Tutorial",
+            rating: 4.2,
+        },
+        {
+            id: 2,
+            title: "Angular Tutorial",
+            rating: 4.7,
+        },
+        {
+            id: 3,
+            title: "VueJS Tutorial",
+            rating: 5,
+        },
+        {
+            id: 4,
+            title: "Spring Tutorial",
+            rating: 4,
+        },
+        {
+            id: 5,
+            title: "JS Tutorial",
+            rating: 3,
+        },
+        {
+            id: 6,
+            title: "JS Tutorial",
+            rating: 3.5,
+        },
+        {
+            id: 7,
+            title: "JS Tutorial",
+            rating: 2,
+        },
+
+    ];
+
+    let addedCourses = [
+        {
+            id: 6,
+            title: "PHP Tutorial",
+            rating: 3,
+        },
+        {
+            id: 7,
+            title: "C# Tutorial",
+            rating: 2,
+        },
+        {
+            id: 8,
+            title: "Docker Tutorial",
+            rating: 3.8,
+        }
+    ];
+
+    console.log(courses.filter((value) => value.rating > 4.5));
+
+    let coursesNew = courses.filter((value) => value.rating < 4);
+
+    console.log(coursesNew.map((value) => {
+        return value.id + "-" + value.title + "-" + value.rating;
+    }))
+
+    console.log(...courses, ...addedCourses);
+
+</script>
+</body>
+</html>

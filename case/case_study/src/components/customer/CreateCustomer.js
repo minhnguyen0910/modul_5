@@ -1,8 +1,11 @@
-import {Component} from "react";
+import React, {Component} from "react";
+import {Header} from "../header";
+import {Footer} from "../footer";
 
-export class UpdateCustomer extends Component {
-    render() {
-        return (
+export function CreateCustomer() {
+    return (
+        <>
+            <Header/>
             <section className="vh-70 bg-image">
                 <div className="mask d-flex align-items-center h-100 gradient-custom-3">
                     <div className="container h-100">
@@ -11,7 +14,7 @@ export class UpdateCustomer extends Component {
                                 <div className="card" style={{borderRadius: 15, marginTop: 200}}>
                                     <div className="card-body p-5">
                                         <h2 className="text-uppercase text-center mt-4">
-                                            Cập nhật khách hàng
+                                            Thêm mới khách hàng
                                         </h2>
                                         <form>
                                             <div className="form-outline mb-4">
@@ -60,7 +63,7 @@ export class UpdateCustomer extends Component {
                                                     type="button"
                                                     className="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
                                                 >
-                                                    Cập nhật
+                                                    Thêm mới
                                                 </button>
                                             </div>
                                         </form>
@@ -71,6 +74,8 @@ export class UpdateCustomer extends Component {
                     </div>
                 </div>
             </section>
-        );
-    }
+            <Footer/>
+        </>
+
+    );
 }

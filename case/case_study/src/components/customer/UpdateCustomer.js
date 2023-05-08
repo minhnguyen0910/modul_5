@@ -1,6 +1,6 @@
 import {Component} from "react";
-
-export class CreateCustomer extends Component {
+import { Formik } from 'formik';
+export class UpdateCustomer extends Component {
     render() {
         return (
             <section className="vh-70 bg-image">
@@ -11,7 +11,7 @@ export class CreateCustomer extends Component {
                                 <div className="card" style={{borderRadius: 15, marginTop: 200}}>
                                     <div className="card-body p-5">
                                         <h2 className="text-uppercase text-center mt-4">
-                                            Thêm mới khách hàng
+                                            Cập nhật khách hàng
                                         </h2>
                                         <form>
                                             <div className="form-outline mb-4">
@@ -60,7 +60,7 @@ export class CreateCustomer extends Component {
                                                     type="button"
                                                     className="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
                                                 >
-                                                    Thêm mới
+                                                    Cập nhật
                                                 </button>
                                             </div>
                                         </form>

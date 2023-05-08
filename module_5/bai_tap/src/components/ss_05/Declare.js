@@ -1,9 +1,9 @@
 import {ErrorMessage, Field, Form, Formik} from "formik";
-import App from "../../App";
 import * as Yup from "yup";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 
+const SEX_LIST = [{label: 'Nam', value: 'Male'}, {label: 'Nu', value: 'Female'}]
 export function Declare() {
     return (
         <Formik initialValues={
@@ -30,7 +30,7 @@ export function Declare() {
                 validationSchema={Yup.object({
                     name: Yup.string().required("không được để trống"),
                     numberId: Yup.number().required("không được để trống"),
-                    dayOfBirth: Yup.number().required("không được để trống").min(1960),
+                    dayOfBirth: Yup.number().required("không được để trống").min(1960,"năm sinh phải lớn hơn 1960"),
                     nationality: Yup.string().required("không được để trống"),
                     phoneNumber: Yup.number().required("không được để trống"),
                     email: Yup.string().required("không được để trống").matches(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/, "Invalid email address"),
@@ -64,14 +64,12 @@ export function Declare() {
                         </div>
                         <div className='row'>
                             <span>Giới tính</span>
-                            <div>
-                                <Field type='radio' name='gender' value="nam"/>
-                                <label>Nam</label>
-                            </div>
-                            <div>
-                                <Field type='radio' name='gender' value="nữ"/>
-                                <label>Nữ</label>
-                            </div>
+                            {SEX_LIST.map((values)=>{
+                                return <div>
+                                    <Field type='radio' name="gender" value={values.value}/>
+                                    <label>{values.label}</label>
+                                </div>
+                            })}
                         </div>
                         <div className='row'>
                             <label>Quốc tịch</label><br/>

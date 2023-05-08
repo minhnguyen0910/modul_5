@@ -20,62 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c950918-b634-4782-ba08-85e28d1f3897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_05/Declare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_05/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_05/error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/module_5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/module_5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/luyen_tap_es6/Array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai_tap/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/job/job.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/list_student/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/list_student/.idea/list_student.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/list_student/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/list_student/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/list_student/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_03/list_student/student.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/components/ss_04/counter/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_sign_in/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_infor/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/src/components/ss_05/Declare.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_05/Declare.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss_01/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss_01/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss_01/.idea/modules.xml" beforeDir="false" />
@@ -117,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../case_study" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\ADMIN\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -135,7 +83,11 @@
       <workItem from="1683184316877" duration="235000" />
       <workItem from="1683184872458" duration="1346000" />
       <workItem from="1683250501968" duration="8484000" />
-      <workItem from="1683271039373" duration="6768000" />
+      <workItem from="1683271039373" duration="9618000" />
+      <workItem from="1683386397131" duration="821000" />
+      <workItem from="1683433160940" duration="669000" />
+      <workItem from="1683434874981" duration="5306000" />
+      <workItem from="1683509374985" duration="90000" />
     </task>
     <servers />
   </component>
@@ -158,10 +110,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1683185545365">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1683509464606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1683185545365" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1683509464606" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1683270973654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

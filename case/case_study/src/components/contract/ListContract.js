@@ -1,7 +1,7 @@
 import {listContract} from "./Contract";
-import {Header} from "./header";
+import {Header} from "../header";
 import React from "react";
-import {Footer} from "./footer";
+import {Footer} from "../footer";
 
 export function ListContract() {
     return (

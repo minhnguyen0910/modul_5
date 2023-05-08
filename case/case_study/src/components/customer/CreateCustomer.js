@@ -1,5 +1,5 @@
 import React from "react";
-import {Form, Formik} from 'formik';
+import {ErrorMessage, Field, Form, Formik} from 'formik';
 import {Footer} from "../footer";
 import {Header} from "../header";
 import * as Yup from "yup";
@@ -39,32 +39,36 @@ export function CreateCustomer() {
                                                             Tên khách hàng
                                                         </label>
                                                         <span className="text-danger">*</span>
-                                                        <input
+                                                        <Field
+                                                            name='name'
                                                             type="text"
                                                             id="form3Example1cg"
                                                             className="form-control form-control-lg"
                                                         />
+                                                        <ErrorMessage name="name" component='span' className="error"/>
                                                     </div>
                                                     <div className="form-outline mb-4">
                                                         <label className="form-label" htmlFor="form3Example3cg">
                                                             Năm sinh
                                                         </label>
                                                         <span className="text-danger">*</span>
-                                                        <input
-                                                            type="date"
+                                                        <Field
+                                                            name='year'
+                                                            type="number"
                                                             id="form3Example3cg"
                                                             className="form-control form-control-lg"
                                                         />
+                                                        <ErrorMessage name="year" component='span' className="error"/>
                                                     </div>
                                                     <div className="form-outline mb-4">
                                                         <label className="form-label">Kiểu khách hàng</label>
                                                         <span className="text-danger">*</span>
-                                                        <select name="" id="">
-                                                            <option value="">Diamond</option>
-                                                            <option value="">Platinum</option>
-                                                            <option value="">Gold</option>
-                                                            <option value="">Silver</option>
-                                                        </select>
+                                                        <Field name='type'>
+                                                            <option value="Diamond">Diamond</option>
+                                                            <option value="Platinum">Platinum</option>
+                                                            <option value="Gold">Gold</option>
+                                                            <option value="Silver">Silver</option>
+                                                        </Field>
                                                     </div>
                                                     <div className="form-outline mb-4">
                                                         <label className="form-label">Hình ảnh</label>
@@ -77,7 +81,7 @@ export function CreateCustomer() {
                                                     </div>
                                                     <div className="d-flex justify-content-center">
                                                         <button
-                                                            type="button"
+                                                            type="submit"
                                                             className="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
                                                         >
                                                             Thêm mới

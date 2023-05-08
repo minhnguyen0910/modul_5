@@ -20,19 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c950918-b634-4782-ba08-85e28d1f3897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/luyen_tap_es6/Array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case/case_study/src/components/contract/CreateContract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_05/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/ServiceToDo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/ToDoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/BookService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/CreateBook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/ManageBook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case/case_study/src/components/Contract.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case/case_study/src/components/contract/Contract.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case/case_study/src/components/ListContract.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case/case_study/src/components/contract/ListContract.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case/case_study/src/components/customer/CreateCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case/case_study/src/components/customer/CreateCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case/case_study/src/components/customer/UpdateCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case/case_study/src/components/customer/UpdateCustomer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai_tap/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap/src/components/ss_05/Declare.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_05/Declare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/.idea/ss_01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +69,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../case_study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\ADMIN\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\modul_5\modul_5\module_5\bai_tap\src\components\ss_06\book" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -88,6 +97,7 @@
       <workItem from="1683433160940" duration="669000" />
       <workItem from="1683434874981" duration="5306000" />
       <workItem from="1683509374985" duration="90000" />
+      <workItem from="1683528179924" duration="11764000" />
     </task>
     <servers />
   </component>

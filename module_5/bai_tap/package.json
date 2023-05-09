@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "json-server": "json-server -p 8080-- watch src/components/ss_06/book/db.json"
+    "json-server": "json-server -p 8080 --watch src/components/ss_06/data/db.json"
   },
   "eslintConfig": {
     "extends": [

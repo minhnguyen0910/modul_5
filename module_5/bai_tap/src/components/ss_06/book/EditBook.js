@@ -1,23 +1,39 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Field, Form, Formik} from "formik";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {save} from "./BookService";
+import {findById, updateBook} from "./BookService";
+import {useParams} from "react-router";
+import {Link} from "react-router-dom";
 
-export function CreateBook() {
+export function EditBook() {
+    const [book, setBook] = useState(null)
+    const param = useParams()
+    useEffect(() => {
+        const search = async () => {
+            const books = await findById(param.id);
+            setBook(books)
+        }
+        search()
+    }, [param.id])
+    if (!book) {
+        return null
+    }
     return (
         <>
+            <Link to={`/`}>Trang chu</Link>
             <Formik
                 initialValues={{
-                    title: "",
-                    qtt: 0
+                    title: book?.title,
+                    qtt: book?.qtt
                 }}
 
                 onSubmit={((values) => {
                     console.log(values)
-                    const create = async () => {
-                        await save(values)
+                    const update = async () => {
+                        await updateBook(values)
+                        console.log(values)
                     }
-                    create();
+                    update();
                 })}
             >
                 <Form>
@@ -35,6 +51,7 @@ export function CreateBook() {
                         </tr>
                     </table>
                 </Form>
+
             </Formik>
         </>
     )

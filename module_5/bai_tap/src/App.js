@@ -9,11 +9,13 @@ import {Book} from "./components/ss_06/book/ManageBook";
 
 import {CreateBook} from "./components/ss_06/book/CreateBook";
 import {Route, Routes} from "react-router";
+import {EditBook} from "./components/ss_06/book/EditBook";
 function App() {
     return (
         <Routes>
             <Route path='/' element={<Book/>}/>
             <Route path='/create' element={<CreateBook/>} />
+            <Route path='/edit/:id' element={<EditBook/>} />
         </Routes>
 );
 }

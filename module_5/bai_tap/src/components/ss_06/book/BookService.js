@@ -42,7 +42,7 @@ export const findById = async (id) => {
 }
 export const updateBook = async (book) => {
     try {
-        await axios.put(`http://localhost:8080/books`, {...book})
+        await axios.put(`http://localhost:8080/books/${book.id}`, {...book})
     } catch (e) {
         console.log(e)
     }

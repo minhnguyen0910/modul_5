@@ -1,11 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect, useState} from "react";
 import {deleteBook, findAll, searchBook} from "./BookService";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 
 export function Book() {
+    const navigate=useNavigate()
     const [book, setBook] = useState([]);
+    const [books, setBooks] = useState({});
     useEffect(() => {
         const Api = async () => {
             const result = await findAll()
@@ -16,7 +18,7 @@ export function Book() {
     }, [])
     const handleDelete = async (id) => {
         await deleteBook(id)
-        setBook(prevState => prevState.filter(prev => prev.id != id))
+        setBook(prevState => prevState.filter(prev => prev.id !== id))
     }
     const handleSearch = async () => {
         let id = document.getElementById('idBook').value;
@@ -24,6 +26,7 @@ export function Book() {
         setBook(result)
     }
     return (
+
         <>
             <h3>Library</h3>
             <button>
@@ -41,11 +44,14 @@ export function Book() {
                 </thead>
                 <tbody>
                 {book.map((b) => (
-                    <tr>
+                    <tr key={b.id}>
                         <td>{b.title}</td>
                         <td>{b.qtt}</td>
                         <td>
-                            <button type="button" className="btn btn-info" style={{marginRight: '2px'}}><Link to={`/edit/${b.id}`}>Sua</Link></button>
+                            <button type="button" className="btn btn-info" style={{marginRight: '2px'}}><Link
+                                to={`/edit/${b.id}`}>Sua</Link></button>
+                        </td>
+                        <td>
                             <button className="btn btn-info" onClick={() => handleDelete(b.id)}>Xoá</button>
                         </td>
                     </tr>

@@ -20,49 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c950918-b634-4782-ba08-85e28d1f3897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_tap/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/.idea/bai_tap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/.idea/ss_06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/components/Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/components/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/data/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/redux/action/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/redux/action/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/redux/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/redux/reducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/redux/reducer/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/service/UserService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_07/user/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_07/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_07/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/pages/_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/pages/api/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_08/user/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/BookService.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/BookService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/ManageBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/book/ManageBook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/src/components/ss_06/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap/src/components/ss_06/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/src/components/ss_06/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss_07/user/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss_07/user/src/components/List.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +59,8 @@
         <option value="CSS File" />
         <option value="tsconfig.json" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -112,12 +96,22 @@
       <recent name="E:\modul_5\modul_5\module_5\bai_tap\src\components\ss_06\book" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.json-server (1)">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/ss_07/user/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ss_08/user/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -145,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.json-server (1)" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.json-server" />
@@ -170,7 +165,9 @@
       <workItem from="1683434874981" duration="5306000" />
       <workItem from="1683509374985" duration="90000" />
       <workItem from="1683528179924" duration="16690000" />
-      <workItem from="1683595172407" duration="22439000" />
+      <workItem from="1683595172407" duration="25007000" />
+      <workItem from="1683645669819" duration="60000" />
+      <workItem from="1683686980305" duration="5183000" />
     </task>
     <servers />
   </component>
@@ -197,26 +194,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1683595692799" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1683638978653">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1683700614551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1683638978653" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1683638342227">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1683700614551" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1683700920095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1683638342227" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1683638342227">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1683700920095" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1683700920095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1683638342227" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1683638342227">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1683700920095" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1683700920095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1683638342227" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1683638342227">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1683700920095" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1683700920095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1683638342227" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1683700920095" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1683636743297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

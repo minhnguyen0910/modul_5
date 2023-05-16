@@ -7,7 +7,6 @@ import {Link, useNavigate} from "react-router-dom";
 export function Book() {
     const navigate=useNavigate()
     const [book, setBook] = useState([]);
-    const [books, setBooks] = useState({});
     useEffect(() => {
         const Api = async () => {
             const result = await findAll()
@@ -15,7 +14,7 @@ export function Book() {
         }
         Api();
 
-    }, [])
+    },[])
     const handleDelete = async (id) => {
         await deleteBook(id)
         setBook(prevState => prevState.filter(prev => prev.id !== id))
